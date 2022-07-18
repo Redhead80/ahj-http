@@ -1,8 +1,5 @@
-import Desk from "./Desk";
-import Requester from "./Requester";
+/* eslint-disable import/extensions */
+import Widget from './Widget';
 
-
-new Desk();
-
-Requester.makeRequest('GET', {}, 'getAllTickets');
-
+const helpDesk = new Widget(document.querySelector('.container'));
+helpDesk.bindToDOM();
