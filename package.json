@@ -168,5 +168,7 @@
     "lint": "eslint . --fix",
     "test": "jest --passWithNoTests",
     "startAdd": "forever -w server.js"
-  }
+  },
+  "author": "coursar",
+  "license": "ISC"
 }
