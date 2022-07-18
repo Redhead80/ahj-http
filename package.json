@@ -163,11 +163,10 @@
     "wrappy": "^1.0.2"
   },
   "scripts": {
-    "prestart": "npm install",
-    "start": "forever server.js",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint . --fix",
+    "test": "jest --passWithNoTests",
     "startAdd": "forever -w server.js"
-  },
-  "engines": {
-    "node": "11.x"
   }
 }
