@@ -4,7 +4,7 @@ export default function runRequest(options = {}) {
       headers, data, responseType, method,
     } = options;
 
-    const url = 'https://git.heroku.com/coursar-heroku-gu.git';
+    const url = 'https://ahj-http-help-desk.herokuapp.com/';
 
     const params = new URLSearchParams();
 
